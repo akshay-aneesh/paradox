@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+				initial-scale=1.0"
+    />
+    <title>Compose Email</title>
+    <link rel="stylesheet" href="page.css" />
+  </head>
+
+
+<div class = "email">
+    <h2 style="text-align: center; color: #770000;">Compose Email</h2>
+
+    <form action="send_email.php" method="post">
+      
+        <!-- Email Subject -->
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required style="width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box;" placeholder="Enter email subject">
+
+        <!-- Email Body -->
+        <label for="body">Email Body:</label>
+        <textarea id="body" name="body" rows="6" required style="width: 100%; padding: 8px; margin-bottom: 100px; box-sizing: content-box ;" placeholder="Write your email here"></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit" style="background-color: #720000; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Send Email</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
