@@ -6,13 +6,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 :root {
-  --background-color1: #fafaff;
+  --background-color1: #fffbfa;
   --background-color2: #ffffff;
   --background-color3: #ededed;
-  --background-color4: #cad7fda4;
+  --background-color4: #9aa1f1;
   --primary-color: #0300ac;
   --secondary-color: #0f0099;
   --Border-color: #000d97;
@@ -246,7 +246,7 @@ header {
   min-height: 300px;
   max-width: 1200px;
   margin: 70px auto 0px auto;
-  background-color: #ffffff;
+  background-color: #660a0a;
   border-radius: 30px;
   box-shadow: 3px 3px 10px rgb(188, 188, 188);
   padding: 0px 20px 20px 20px;
@@ -258,13 +258,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 20px 10px 20px;
-  border-bottom: 2px solid rgba(0, 20, 151, 0.59);
+  border-bottom: none;
 }
 
 .emails-new {
   font-size: 30px;
   font-weight: 600;
-  color: #cb0003;
+  color: #ffffff;
 }
 
 .view {
@@ -294,6 +294,7 @@ header {
   font-size: 18px;
   letter-spacing: 0px;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 select {
@@ -345,13 +346,23 @@ select {
   align-items: center;
 } 
 
-.btn { 
-	background-color: rgb(179, 179, 179);
-  width: 50px; 
-} 
-
-.btn:hover { 
-	color: white; 
-	background-color: rgb(37, 4, 129); 
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
 }
 
+a:hover {
+  background-color: #d7a74e;
+  color: black;
+}
+
+.fcc-btn {
+  background-color: #cb0003;
+  color: white;
+  height: 35px;
+  width: 80px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.fcc-btn {border-radius: 12px;}
